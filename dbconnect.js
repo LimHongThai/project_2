@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 // Database Connection URL
 //Mongoose is an Object Document Mapper (ODM)
 const url = 'mongodb+srv://User1:user12345@cluster0.dynef.mongodb.net/thaitest?retryWrites=true&w=majority&appName=Cluster0';
+const uri = 'mongodb://172.31.91.145:27017/Cluster0';
 
 // STEP-2 : ESTABLISH CONNECTION WITH MONGODB DATABASE THROUGH MONGOOSE
 // err is callback function Parameter. ARROW OPERATOR.
